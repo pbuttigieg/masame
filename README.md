@@ -11,12 +11,9 @@ If you have queries, wish to report errors, or have enhancement requests,
 contact [Pier Luigi Buttigieg](http://orcid.org/0000-0002-4366-3088).
 
 
-## Example data sets
+## Please fork and submit pull requests!
 
-Please find demo data sets in the "Example data sets" directory. These
-are correctly formatted for upload to MASAME Apps under the default
-upload settings. More information is available in the README file in 
-the directory.
+If you'd like to fork the code to improve or extend it, we're more than happy to integrate pull requests here and in [GUSTA ME](http://mb3is.megx.net/gustame). It would be even better if you have knowledge to share via [GUSTA ME](http://mb3is.megx.net/gustame) itself! Of course, all contributions will be micro-credited.
 
 ## Analysis Apps
 
@@ -49,4 +46,17 @@ To launch an analysis app online, please click the link to the corresponding GUS
 #### Hypothesis testing
 - [Permutational multivariate analysis of variance Using distance matrices](https://sites.google.com/site/mb3gustame/hypothesis-tests/manova/npmanova)
 - [Analysis of similarity](https://sites.google.com/site/mb3gustame/hypothesis-tests/anosim)
+
+
+## Example data sets
+Please find demo data sets in the "Example data sets" directory. These
+are correctly formatted for upload to MASAME Apps under the default
+upload settings. More information is available in the README file in 
+the directory.
+
+
+## Experimental updates
+Some apps have been updated to support colour-coding, `vegan`'s ordination hulls, spiders, and ellipses, and more transformations.
+If you'd like to try them out, they're in the [experimentalUpdates](https://github.com/pbuttigieg/masame/tree/master/experimentalUpdates) folder. You'll have to run them locally (see below for brief instructions), but it's quite straightforward to do so.
+
 
