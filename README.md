@@ -20,42 +20,33 @@ the directory.
 
 ## Analysis Apps
 
-To launch an analysis app, simply click on its name...
+### Running apps locally
+You can run any of these apps on your own machine (assuming you've cloned the code locally and have all the R packages you need) by using the `runApp()` function from shiny. These are at the top of most scripts in this repo. For example, to run the ANOSIM app on your computer from the top level directory ("masame"), type the following in your R console:
+```R
+runApp('./ANOSIM', launch.browser = TRUE) 
+```
 
-### ANOSIM
-- Analysis of similarity
 
-### CCA
-- (partial) canonical correspondence analysis
+### Running apps online
 
-### ClusterAnalysis
-- Hierarchical cluster analysis
+To launch an analysis app online, please click the link to the corresponding GUSTA ME page below and scroll to the bottom where the a launch link will be provided.
 
-### Diag_multicollinearity
-- screen your data set for multicollinear variables using correlation-
-based approaches
+#### Data prep
+- [screen your data set for multicollinear variables using correlation-based approaches](http://mb3is.megx.net/eatme/Diag_multicollinearity/)
+- [screen your data set for univariate and multivariate normality and apply transformations](https://sites.google.com/site/mb3gustame/reference/transformations)
+- [screen your data set for univariate and multivariate outliers](http://mb3is.megx.net/eatme/Diag_outliers/)
 
-### Diag_normality
-- screen your data set for univariate and multivariate normality and
-apply transformations.
+#### Ordination & clustering methods
+- [Principal components analysis](https://sites.google.com/site/mb3gustame/indirect-gradient-analysis/pca)
+- [(partial) redundancy analysis](https://sites.google.com/site/mb3gustame/constrained-analyses/rda)
+- [distance-based redundancy analysis](https://sites.google.com/site/mb3gustame/constrained-analyses/rda/dbrda)
+- [(partial) canonical correspondence analysis](https://sites.google.com/site/mb3gustame/constrained-analyses/cca)
+- [Metric multidimensional scaling analysis or principal coordinates analysis](https://sites.google.com/site/mb3gustame/dissimilarity-based-methods/principal-coordinates-analysis)
+- [Hierarchical cluster analysis](https://sites.google.com/site/mb3gustame/dissimilarity-based-methods/cluster-analysis/hierarchical-cluster-analysis)
+- [Non-metric multidimensional scaling analysis](https://sites.google.com/site/mb3gustame/dissimilarity-based-methods/nmds)
+- [Principal coordinates of neighbour matrices analysis](https://sites.google.com/site/mb3gustame/spatial-analysis/pcnm)
 
-### Diag_outliers
-- screen your data set for univariate and multivariate outliers
+#### Hypothesis testing
+- [Permutational multivariate analysis of variance Using distance matrices](https://sites.google.com/site/mb3gustame/hypothesis-tests/manova/npmanova)
+- [Analysis of similarity](https://sites.google.com/site/mb3gustame/hypothesis-tests/anosim)
 
-### NMDS
-- Non-metric multidimensional scaling analysis
-
-### PCA
-- Principal components analysis
-
-### PCNM
-- Principal coordinates of neighbour matrices analysis
-
-### PCoA
-- Metric multidimensional scaling analysis or principal coordinates analysis
-
-### PERMANOVA
-- Permutational multivariate analysis of variance Using distance matrices
-
-### RDA
-- (partial) redundancy analysis
