@@ -1,5 +1,5 @@
 #505AdZKpufSmOJG1Hh6l3OT
-#runApp('C:\\Users\\pbuttigi\\Documents\\Revolution\\EATME\\NMDS', launch.browser = FALSE)
+#runApp('./NMDS', launch.browser = FALSE)
 
 library(shiny)
 library(vegan)

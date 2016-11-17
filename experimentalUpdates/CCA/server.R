@@ -1,5 +1,5 @@
 #8g5ziit1CB
-#runApp('C:\\Users\\pbuttigi\\Documents\\Revolution\\EATME\\CCA', launch.browser = FALSE)
+#runApp('./CCA', launch.browser = FALSE)
 
 library(shiny)
 library(vegan)

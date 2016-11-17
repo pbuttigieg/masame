@@ -1,5 +1,5 @@
 #9G_IXBE5PUN4XSpncTw7oN0l
-#runApp('C:\\Users\\pbuttigi\\Documents\\Revolution\\EATME\\PCoA', launch.browser = FALSE)
+#runApp('./PCoA', launch.browser = FALSE)
 library(shiny)
 library(vegan)
 library(RColorBrewer)

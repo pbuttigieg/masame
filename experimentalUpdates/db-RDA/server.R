@@ -1,5 +1,5 @@
 #DRfH--Nk-VYdkK6C
-#runApp('C:\\Users\\pbuttigi\\Documents\\Revolution\\EATME\\db-RDA', launch.browser = FALSE)
+#runApp('./db-RDA', launch.browser = FALSE)
 
 library(shiny)
 library(vegan)
