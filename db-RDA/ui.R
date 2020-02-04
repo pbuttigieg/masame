@@ -254,8 +254,8 @@ shinyUI(
 				inputId = 'correctionMethod2',
 				label = 'Should negative eigenvalues be corrected by the addition of a constant to non-diagonal dissimilarities?',
 				choices = c(
-					'Yes' = TRUE,
-					'No' = FALSE
+					'Yes' = 'lingoes',
+					'No' = 'cailliez'
 				)
 			),
 			
